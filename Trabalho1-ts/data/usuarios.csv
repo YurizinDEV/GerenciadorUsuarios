@@ -1,0 +1,2 @@
+id,nome,email,senha,papel,dataCadastro,dataUltimaAlteracao,status
+ee45f2ac-45d2-41a6-8fff-4b1e0ac0063f,João da Silva,joao@example.com,$2b$10$c1VUNX67bskibrbdv.pV2uDCvsyeroaXgUdL1FRRy7JfDvrSrIWAa,Professor,2025-01-25T22:10:02.000Z,2025-01-25T22:10:02.000Z,true
