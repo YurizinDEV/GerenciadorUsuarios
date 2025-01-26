@@ -1,2 +1,3 @@
-id,nome,email,senha,papel,dataCadastro,dataUltimaAlteracao,status
-ee45f2ac-45d2-41a6-8fff-4b1e0ac0063f,João da Silva,joao@example.com,$2b$10$c1VUNX67bskibrbdv.pV2uDCvsyeroaXgUdL1FRRy7JfDvrSrIWAa,Professor,2025-01-25T22:10:02.000Z,2025-01-25T22:10:02.000Z,true
+id;nome;email;senha;papel;dataCadastro;dataUltimaAlteracao;status
+a1028b27-693f-49e2-9205-0290ba8ad030;Maria Souza;maria@example.com;$2b$10$06PrU2OQdJyItZ.z1NyCH.AvRZgkpSRJparuNEAGcFU65OJX1pgf2;Convidado;2025-01-26T16:27:55.506Z;2025-01-26T16:27:55.506Z;true
+a767572e-b8f7-48b6-b760-b34454840c02;Yuri Souza;maria@example.com;$2b$10$SinXtl7DGKz8Z/cVMuv6PueFRig.oA3V5wjxRsynSGmYxz/ZqRzFK;Convidado;2025-01-26T16:52:59.600Z;2025-01-26T16:52:59.600Z;true
