@@ -1,3 +1,9 @@
 id;nome;email;senha;papel;dataCadastro;dataUltimaAlteracao;status
-a1028b27-693f-49e2-9205-0290ba8ad030;Maria Souza;maria@example.com;$2b$10$06PrU2OQdJyItZ.z1NyCH.AvRZgkpSRJparuNEAGcFU65OJX1pgf2;Convidado;2025-01-26T16:27:55.506Z;2025-01-26T16:27:55.506Z;true
-a767572e-b8f7-48b6-b760-b34454840c02;Yuri Souza;maria@example.com;$2b$10$SinXtl7DGKz8Z/cVMuv6PueFRig.oA3V5wjxRsynSGmYxz/ZqRzFK;Convidado;2025-01-26T16:52:59.600Z;2025-01-26T16:52:59.600Z;true
+ec62ed76-fd56-4209-ba41-ea0ce24a3946;Admin;admin@example.com;$2b$10$JnsVMYEfWz8HKGQbPB7hHOPHxBZwiOeqokWRgjpppNWwByh9VuXd.;Administrador;2025-01-26T17:25:13.820Z;2025-01-26T17:25:13.820Z;true
+b7b434ef-7ef2-4e67-aa01-8088761ab7e9;João Silva;joao.silva@example.com;senha123;Convidado;2025-01-26T17:25:13.820Z;2025-01-26T17:25:13.820Z;true
+2eeed3d3-5b98-4386-991a-8a53076073dd;Maria Souza;maria.souza@example.com;senha456;Convidado;2025-01-26T17:25:13.820Z;2025-01-26T17:25:13.820Z;true
+5ca73b54-6585-44e5-b46a-bbf24a4593bb;Pedro Oliveira;pedro.oliveira@example.com;senha789;Professor;2025-01-26T17:25:13.820Z;2025-01-26T17:25:13.820Z;false
+1676b79e-6739-4e42-9510-196d41831d83;Admin;admin@example.com;$2b$10$JJE.q.TO549gJErlT/8QXO7Qn5Gcce0GOqMNToeWyv0akd1xo0MKq;Administrador;2025-01-26T17:26:34.636Z;2025-01-26T17:26:34.636Z;true
+07dd6b01-54dd-485c-b02d-fb65a9db8245;João Silva;joao.silva@example.com;senha123;Convidado;2025-01-26T17:26:34.636Z;2025-01-26T17:26:34.636Z;true
+f7aa6b76-d3ac-4f5a-919c-cf48a40d1c8f;Maria Souza;maria.souza@example.com;senha456;Convidado;2025-01-26T17:26:34.636Z;2025-01-26T17:26:34.636Z;true
+737ca05e-22e3-4fe8-8c58-8dfc1e147dd6;Pedro Oliveira;pedro.oliveira@example.com;senha789;Professor;2025-01-26T17:26:34.636Z;2025-01-26T17:26:34.636Z;false

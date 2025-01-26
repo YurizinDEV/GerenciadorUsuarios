@@ -13,7 +13,7 @@ program.version('1.0.0').description('Sistema de Gerenciamento de Usuários');
 
 // Carregar usuários existentes ou criar sementes iniciais  
 carregarUsuarios();
-//criarUsuariosIniciais(); // Descomente se quiser criar usuários iniciais  
+//
 
 program.addCommand(cadastrar);
 program.addCommand(listar);

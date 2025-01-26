@@ -3,8 +3,10 @@ import { v4 as uuidv4 } from 'uuid';
 import bcrypt from 'bcrypt';
 import { Papel } from '../models/papeis';
 import { adicionarUsuario } from '../services/usuarioService';
+import { carregarUsuarios } from '../services/usuarioService';
 
 export function criarUsuariosIniciais(): void {
+    carregarUsuarios();   
     const usuariosIniciais: Usuario[] = [
         {
             id: uuidv4(),
@@ -46,8 +48,9 @@ export function criarUsuariosIniciais(): void {
             dataUltimaAlteracao: new Date(),
             status: false,
         },
-        // Adicione outros usuários se necessário  
     ];
 
     usuariosIniciais.forEach(usuario => adicionarUsuario(usuario));
 }
+
+criarUsuariosIniciais(); 

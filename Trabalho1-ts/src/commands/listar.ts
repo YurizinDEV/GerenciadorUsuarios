@@ -31,7 +31,7 @@ listar
             const usuariosFormatados: UsuarioFormatado[] = [];
 
             usuarios.forEach((u, index) => {
-                console.log(`${index} - ${JSON.stringify(u)}`);
+              //  console.log(`${index} - ${JSON.stringify(u)}`);
                 usuariosFormatados.push({
                     id: u.id,
                     nome: u.nome,
