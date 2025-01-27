@@ -22,7 +22,7 @@ listar
         if (options.id) {
             const usuario = obterUsuarioPorId(options.id);
             if (usuario) {
-                console.log(usuario);
+                console.table(usuario);
             } else {
                 console.error('Usuário não encontrado.');
             }

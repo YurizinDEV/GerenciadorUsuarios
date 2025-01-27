@@ -5,7 +5,6 @@ import {listar} from './commands/listar';
 import {alterar} from './commands/alterar';
 import {deletar} from './commands/deletar';
 import { carregarUsuarios } from './services/usuarioService';
-import { criarUsuariosIniciais } from './seeds/usuariosSeeds';
 
 const program = new Command();
 
