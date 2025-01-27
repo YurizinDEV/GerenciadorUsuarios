@@ -93,7 +93,8 @@ git clone https://github.com/YurizinDEV/gerenciadorusuarios.git
 No `package.json`, há (ou devem existir) os seguintes scripts principais:
 
 - **`npm run build`**: compila o TypeScript gerando a pasta `dist/`.  
-- **`npm run start`**: executa o arquivo `dist/index.js`, carregando os comandos do CLI.  
+- **`npm run start`**: executa o arquivo `dist/index.js`, carregando os comandos do CLI. 
+- **`npm run seed`**: executa as seeds que irão popular o csv `data/usuarios.csv`,  
 
 > Observação: Caso deseje desenvolver sem ficar repetindo “npm run build”, use ferramentas como `ts-node` ou `nodemon`, mas o script principal de produção é `npm run start`.
 
