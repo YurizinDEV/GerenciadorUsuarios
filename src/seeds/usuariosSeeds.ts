@@ -9,7 +9,7 @@ export function criarUsuariosIniciais(): void {
     carregarUsuarios();   
     const usuariosIniciais: Usuario[] = [
         {
-            id: uuidv4(),
+            id: '1234',
             nome: 'Admin',
             email: 'admin@example.com',
             senha: bcrypt.hashSync('Admin@123', 10),
@@ -19,7 +19,7 @@ export function criarUsuariosIniciais(): void {
             status: true,
         },
         {
-            id: uuidv4(),
+            id: '737ca05e-22e3-4fe8-8c58-8dfc1e147dd6',
             nome: 'João Silva',
             email: 'joao.silva@example.com',
             senha: 'senha123',
