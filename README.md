@@ -111,7 +111,7 @@ npm run start -- <comando> [opções]
 Para popular o banco de dados, arquivo csv, executeo seguinte comando:
 
 ```bash
-npm run start -- seed
+npm run seed
 ```
 
 ### Listar

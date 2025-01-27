@@ -1,0 +1,5 @@
+id;nome;email;senha;papel;dataCadastro;dataUltimaAlteracao;status
+1234;Admin;admin@example.com;$2b$10$tdISji0n/OkeQUtYv8ESCeQ8TCWkx0hPivBdwjKVyeC9VCBBt2Xoq;Administrador;2025-01-27T22:49:34.267Z;2025-01-27T22:49:34.267Z;true
+737ca05e-22e3-4fe8-8c58-8dfc1e147dd6;João Silva;joao.silva@example.com;senha123;Convidado;2025-01-27T22:49:34.267Z;2025-01-27T22:49:34.267Z;true
+e96deabb-7cbf-4cad-b29a-41163e1dd516;Maria Souza;maria.souza@example.com;senha456;Convidado;2025-01-27T22:49:34.268Z;2025-01-27T22:49:34.268Z;true
+8476fc60-619f-497e-ab80-e67502f726c5;Pedro Oliveira;pedro.oliveira@example.com;senha789;Professor;2025-01-27T22:49:34.268Z;2025-01-27T22:49:34.268Z;false
