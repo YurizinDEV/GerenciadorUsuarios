@@ -1,3 +1,4 @@
+// papeis.ts  
 export enum Papel {
     Administrador   = 'Administrador',
     Convidado       = 'Convidado',

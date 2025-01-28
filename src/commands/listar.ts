@@ -1,7 +1,6 @@
 // commands/listar.ts  
 import { Command } from 'commander';
 import { obterUsuarios, obterUsuarioPorId } from '../services/usuarioService';
-import { Usuario } from '../models/usuario';
 
 interface UsuarioFormatado {
     id: string;

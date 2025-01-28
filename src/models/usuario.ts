@@ -1,3 +1,4 @@
+// usuario.ts  
 import { Papel } from "./papeis";
 
 export interface Usuario {

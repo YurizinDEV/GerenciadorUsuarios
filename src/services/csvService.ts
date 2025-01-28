@@ -1,3 +1,4 @@
+// csvService.ts  
 import { Usuario } from '../models/usuario';
 import { Papel } from '../models/papeis';
 import fs from 'fs';
@@ -21,20 +22,15 @@ export function salvarDadosCSV(usuarios: Usuario[]) {
 export function carregarDadosCSV(): Usuario[] {
     const usuarios: Usuario[] = [];
 
-    // Se não existir o arquivo, retornamos o array vazio  
     if (!fs.existsSync(caminhoCSV)) {
         return usuarios;
     }
 
-    // Lê todo o conteúdo do CSV  
     const csvData = fs.readFileSync(caminhoCSV, 'utf-8');
-    // Quebra em linhas  
     const linhas = csvData.trim().split('\n');
-
-    // Remove o cabeçalho (id;nome;email;...)  
+ 
     linhas.shift();
 
-    // Para cada linha, faz split por ; e converte para objeto Usuario  
     for (const linha of linhas) {
         const [id, nome, email, senha, papelString, dataCad, dataAlt, status] = linha.split(';');
 

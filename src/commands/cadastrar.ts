@@ -1,3 +1,4 @@
+// commands/cadastrar.ts  
 import { Command } from 'commander';
 import { Usuario } from '../models/usuario';
 import { v4 as uuidv4 } from 'uuid';

@@ -1,3 +1,4 @@
+// validações.ts  
 export function validarNome(nome: string): boolean {
     return nome.length >= 3 && nome.length <= 25;
 }

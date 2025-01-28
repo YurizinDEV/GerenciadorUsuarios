@@ -10,9 +10,7 @@ const program = new Command();
 
 program.version('1.0.0').description('Sistema de Gerenciamento de Usuários');
 
-// Carregar usuários existentes ou criar sementes iniciais  
 carregarUsuarios();
-//
 
 program.addCommand(cadastrar);
 program.addCommand(listar);

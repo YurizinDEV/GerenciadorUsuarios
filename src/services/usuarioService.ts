@@ -1,12 +1,6 @@
-//import { Usuario } from '../models/usuario';
-//import { salvarDadosCSV, carregarDadosCSV } from './csvService';
+// usuarioService.ts  
 import { salvarDadosCSV, carregarDadosCSV } from './csvService';  
 import { Usuario } from '../models/usuario';  
-import { validarNome, validarEmail, validarSenha } from '../utils/validacoes';  
-import bcrypt from 'bcrypt';  
-import { v4 as uuidv4 } from 'uuid';  
-import { Papel } from '../models/papeis';  
-
 
 let usuarios: Usuario[] = [];
 
