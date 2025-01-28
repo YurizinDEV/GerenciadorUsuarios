@@ -76,9 +76,16 @@ git clone https://github.com/YurizinDEV/gerenciadorusuarios.git
 ```
 
 2. Abra o terminal na pasta do projeto.  
+```bash
+   cd gerenciadorusuarios
+   ```
 3. Instale as dependências usando:
    ```bash
    npm install
+   ```
+   ou
+    ```bash
+   sudo npm install
    ```
 4. Compile o TypeScript:
    ```bash
